@@ -2,6 +2,11 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const sql = require('mysql');
 const mailchimp = require('mailchimp-api-v3');
+const secrets = require('./.env');
+const mysql = require('mysql2');
+const dotenv = require('dotenv');
+const mailchimp = require('mailchimp-api-v3');
+
 
 // Create the server
 const app = express();
@@ -58,3 +63,7 @@ app.listen(3000, () => {
 //correct parameters for your SQL database connection and Mailchimp API key.
 //Please note that this code uses the Express.js framework and the mysql and mailchimp-api-v3 libraries. 
 //You may need to install these packages first by running npm install express mysql mailchimp-api-v3
+
+//In the backend.js file, you need to run the backend.js file on a server, and make sure it's 
+//running before you run the script.js file and the HTML file. You can use the package.json file 
+//to set the start script to run the backend.js file, and you can use npm start to run it.
