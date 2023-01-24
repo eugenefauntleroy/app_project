@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Header Styles */
+  header {
+    padding: 20px 0;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    font-size: 0.875rem;
+  }
+  
+  /* Jumbotron Styles */
+  .jumbotron {
+    background-color: #8ac4a3;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .jumbotron h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Destination Card Styles */
+  .card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  /* About Us and Contact Us Styles */
+  #about-us, #contact-us {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #about-us h2, #contact-us h2 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
