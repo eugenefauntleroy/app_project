@@ -1,2 +1,2 @@
-# app_project
-travel app initial draft
+# innitial draft
+Michito Iwata's project 
