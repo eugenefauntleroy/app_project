@@ -1,5 +1,5 @@
 // Import the GPT-3 chatbot function from the Python file
-import { generateChatbotResponse } from './gpt3_chatbot_example.js';
+import { generateChatbotResponse } from './gpt3_chatbot_example.py';
 
 // Import the itinerary component
 import { createItinerary } from './itinerary_template_square.js';
@@ -8,7 +8,7 @@ import { createItinerary } from './itinerary_template_square.js';
 import { createServer } from './backend.js';
 
 // Import login
-import { login } from './login.js';
+import { login } from './login.jsx';
 
 // Create the server
 createServer();
