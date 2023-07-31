@@ -1,7 +1,3 @@
-Sure, here's a comprehensive README file for the `app_project` repository:
-
----
-
 # One-Stop Travel Assistance App
 
 This project is a work-in-progress application designed to provide a comprehensive travel assistance experience. It integrates several technologies including Node.js, Express.js, SQL, Mailchimp, OpenAI GPT-3, Zendesk, React, and Firebase.
